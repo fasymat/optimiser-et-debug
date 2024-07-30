@@ -89,11 +89,19 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #beb45a;
+  background-color: #423d15;
   border-radius: 0;
+}
+.nav-item .active .nav-link {
+  color: #423d15;
 }
 .nav-pills .nav-link {
   color: #000;
+}
+.nav-pills .nav-link:hover {
+  background-color: #423d15;
+  border-radius: 0px;
+  color: #fff;
 }
 .item-column {
   position: relative;
@@ -182,7 +190,7 @@ body {
 }
 .picture.right::before {
   content: " ";
-  background-color: #beb45a;
+  background-color: #423d15;
   width: 374px;
   height: 329px;
   position: absolute;
